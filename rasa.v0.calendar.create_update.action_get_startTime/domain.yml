@@ -4,6 +4,7 @@ intents:
 - greet
 - thanks
 - update_meeting
+- ask_startTime
 entities:
 - date
 - endTime
@@ -31,6 +32,7 @@ templates:
   utter_updateMeeting:
   - text: intent is updateMeeting. startTime is {startTime}, endTime is {endTime},
       meetingroom is {meetingroom}, date is {date}.
+
 actions:
 - utter_createMeeting
 - utter_goodbye
@@ -38,3 +40,4 @@ actions:
 - utter_thanks
 - utter_updateMeeting
 - update_meeting
+- action_get_startTime

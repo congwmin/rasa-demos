@@ -36,3 +36,7 @@
 - update the meeting from [9am](startTime) to [3pm](endTime) [today](date)
 - update the meeting to [today](date)
 - update the meeting from [10am](startTime) to [3pm](endTime) [today](date)
+
+## intent:ask_startTime
+- tell me the start time
+- start time
