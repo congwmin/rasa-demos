@@ -1,67 +1,56 @@
 ## greet
 * greet
-  - utter_greet
+  - action_greet
 
 ## story 1
 * thanks
-  - utter_thanks
+  - action_thanks
 
 ## story 2
 * create_meeting
-  - utter_createMeeting
+  - action_create_meeting
 
 ## story 3
 * greet
-  - utter_greet
+  - action_greet
 * create_meeting
-  - utter_createMeeting
+  - action_create_meeting
 
 ## story 4
 * create_meeting
-  - utter_createMeeting
+  - action_create_meeting
 * create_meeting
-  - utter_createMeeting
+  - action_create_meeting
 * create_meeting
-  - utter_createMeeting
+  - action_create_meeting
 
 ## New Story
-
-* create_meeting{"startTime":"10am","endTime":"3pm","date":"today"}
-    - slot{"date":"today"}
-    - slot{"endTime":"3pm"}
-    - slot{"startTime":"10am"}
-    - utter_createMeeting
-* greet
-    - utter_greet
-* create_meeting{"meetingroom":"focus room"}
-    - slot{"meetingroom":"focus room"}
-    - utter_createMeeting
-
-## New Story
-
 * update_meeting{"startTime":"10am","endTime":"2pm"}
     - slot{"endTime":"2pm"}
     - slot{"startTime":"10am"}
-    - utter_updateMeeting
+    - action_update_meeting
 
 ## update meeting
 * update_meeting
-  - utter_updateMeeting
+  - action_update_meeting
 
 ## story 5
 * create_meeting
-  - utter_createMeeting
+  - action_create_meeting
 * update_meeting
-  - utter_updateMeeting
+  - action_update_meeting
 
-## story 6
-* update_meeting
-  - update_meeting
-* update_meeting
-  - update_meeting
-
-## get startTime
+# create+ask meeting
 * create_meeting
-  - utter_createMeeting
-* ask_startTime
-  - action_get_startTime
+  - action_create_meeting
+* ask_next_meeting
+  - action_show_next_meeting
+
+# create + update + ask meeting
+* create_meeting
+  - action_create_meeting
+* update_meeting
+  - action_update_meeting
+* ask_next_meeting
+  - action_show_next_meeting
+

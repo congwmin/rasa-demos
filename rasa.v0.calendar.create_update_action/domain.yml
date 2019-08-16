@@ -4,40 +4,22 @@ intents:
 - greet
 - thanks
 - update_meeting
-- ask_startTime
+- ask_next_meeting
 entities:
 - date
 - endTime
-- meetingroom
 - startTime
 slots:
   date:
     type: text
   endTime:
     type: text
-  meetingroom:
-    type: text
   startTime:
     type: text
-templates:
-  utter_greet:
-  - text: Hey!
-  utter_thanks:
-  - text: You are welcome.
-  utter_goodbye:
-  - text: Bye~
-  utter_createMeeting:
-  - text: intent is createMeeting. startTime is {startTime}, endTime is {endTime},
-      meetingroom is {meetingroom}, date is {date}.
-  utter_updateMeeting:
-  - text: intent is updateMeeting. startTime is {startTime}, endTime is {endTime},
-      meetingroom is {meetingroom}, date is {date}.
-
 actions:
-- utter_createMeeting
-- utter_goodbye
-- utter_greet
-- utter_thanks
-- utter_updateMeeting
-- update_meeting
-- action_get_startTime
+- action_create_meeting
+- action_goodbye
+- action_greet
+- action_thanks
+- action_update_meeting
+- action_show_next_meeting
