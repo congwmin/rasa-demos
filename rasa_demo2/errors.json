@@ -1,0 +1,26 @@
+[
+  {
+    "text": "Seattle",
+    "intent": "provide_location",
+    "intent_prediction": {
+      "name": "provide_toCity",
+      "confidence": 0.8315048217773438
+    }
+  },
+  {
+    "text": "How about Suzhou?",
+    "intent": "provide_location",
+    "intent_prediction": {
+      "name": "query_weather",
+      "confidence": 0.8487905263900757
+    }
+  },
+  {
+    "text": "Suzhou",
+    "intent": "provide_toCity",
+    "intent_prediction": {
+      "name": "provide_location",
+      "confidence": 0.7126383185386658
+    }
+  }
+]

@@ -1,0 +1,40 @@
+intents:
+- create_meeting
+- goodbye
+- greet
+- thanks
+- update_meeting
+entities:
+- date
+- endTime
+- meetingroom
+- startTime
+slots:
+  date:
+    type: text
+  endTime:
+    type: text
+  meetingroom:
+    type: text
+  startTime:
+    type: text
+templates:
+  utter_greet:
+  - text: Hey!
+  utter_thanks:
+  - text: You are welcome.
+  utter_goodbye:
+  - text: Bye~
+  utter_createMeeting:
+  - text: intent is createMeeting. startTime is {startTime}, endTime is {endTime},
+      meetingroom is {meetingroom}, date is {date}.
+  utter_updateMeeting:
+  - text: intent is updateMeeting. startTime is {startTime}, endTime is {endTime},
+      meetingroom is {meetingroom}, date is {date}.
+actions:
+- utter_createMeeting
+- utter_goodbye
+- utter_greet
+- utter_thanks
+- utter_updateMeeting
+- update_meeting

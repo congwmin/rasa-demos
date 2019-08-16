@@ -1,0 +1,42 @@
+[
+  {
+    "text": "Beijing",
+    "intent": "provide_location",
+    "intent_prediction": {
+      "name": "provide_toCity",
+      "confidence": 0.8004316091537476
+    }
+  },
+  {
+    "text": "Beijing",
+    "intent": "provide_location",
+    "intent_prediction": {
+      "name": "provide_toCity",
+      "confidence": 0.8004316091537476
+    }
+  },
+  {
+    "text": "Seattle",
+    "intent": "provide_location",
+    "intent_prediction": {
+      "name": "provide_toCity",
+      "confidence": 0.8265770673751831
+    }
+  },
+  {
+    "text": "How about Suzhou?",
+    "intent": "provide_location",
+    "intent_prediction": {
+      "name": "query_weather",
+      "confidence": 0.8128629922866821
+    }
+  },
+  {
+    "text": "Suzhou",
+    "intent": "provide_toCity",
+    "intent_prediction": {
+      "name": "provide_fromCity",
+      "confidence": 0.8159847855567932
+    }
+  }
+]

@@ -1,0 +1,24 @@
+intents:
+- ask_weahter
+- greet
+- thanks
+- ask_weather
+entities:
+- date
+- location
+slots:
+  date:
+    type: text
+  location:
+    type: text
+templates:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_thanks:
+  - text: You are welcome.
+  utter_getWeather:
+  - text: intent is getWeather, location is {location}, date is {date}.
+actions:
+- utter_getWeather
+- utter_greet
+- utter_thanks

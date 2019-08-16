@@ -1,0 +1,56 @@
+intents:
+- book_ticket
+- provide_fromCity
+- provide_date
+- goodbye
+- greet
+- provde_fromCity
+- provde_location
+- provide_location
+- provide_toCity
+- query_weather
+- thanks
+entities:
+- data
+- date
+- fromCity
+- location
+- toCity
+slots:
+  date:
+    type: text
+  fromCity:
+    type: text
+  location:
+    type: text
+  toCity:
+    type: text
+templates:
+  utter_ask_date:
+  - text: Which day do yo prefer?
+  utter_ask_fromCity:
+  - text: What city are you leaving from?
+  utter_ask_location:
+  - text: Where?
+  utter_ask_toCity:
+  - text: What city are you going to?
+  utter_confirm_book_ticket:
+  - text: Ok, I will book a ticket from {fromCity} to {toCity} {date}.
+  utter_goodbye:
+  - text: Bye~
+  utter_greet:
+  - text: Hey!
+  utter_thanks:
+  - text: You are welcome.
+  utter_weather:
+  - text: It will be sunny in {location} {date}.
+actions:
+- utter_ask_date
+- utter_ask_fromCity
+- utter_ask_location
+- utter_ask_toCity
+- utter_confirm_book_ticket
+- utter_goodbye
+- utter_greet
+- utter_thanks
+- utter_weather
