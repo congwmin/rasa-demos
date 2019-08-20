@@ -20,11 +20,11 @@ entities:
 - meat
 - topping
 intents:
-- order_sandwich
+- provide_location
 - query_weather
+- order_sandwich
 - thanks
 - provide_date
-- provide_location
 - greet
 - goodbye
 slots:

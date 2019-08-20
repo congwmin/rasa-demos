@@ -279,3 +279,21 @@
 * order_sandwich{"cheese": "swiss"}
     - slot{"cheese": "swiss"}
     - utter_order_sandwich
+
+## Generated Story -2131200855048796913
+* order_sandwich{"meat": "ham", "cheese": "swiss"}
+    - slot{"cheese": "swiss"}
+    - slot{"meat": "ham"}
+    - utter_ask_bread
+* order_sandwich{"bread": "white"}
+    - slot{"bread": "white"}
+    - utter_ask_topping
+* query_weather{"date": "today"}
+    - slot{"date": "today"}
+    - utter_ask_location
+* provide_location{"location": "Beijing"}
+    - slot{"location": "Beijing"}
+    - utter_show_weather
+* order_sandwich{"topping": "mushroom"}
+    - slot{"topping": "mushroom"}
+    - utter_order_sandwich
