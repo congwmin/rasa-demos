@@ -20,12 +20,12 @@ entities:
 - meat
 - topping
 intents:
+- query_weather
 - order_sandwich
+- provide_date
 - greet
 - provide_location
-- query_weather
 - thanks
-- provide_date
 - goodbye
 slots:
   bread:

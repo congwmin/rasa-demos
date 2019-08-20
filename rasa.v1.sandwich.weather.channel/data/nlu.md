@@ -124,12 +124,16 @@
 - [wheat](bread)
 - [no cheese](cheese)
 - [no meat](meat)
+- give me a sandwich with [turkey](meat) and [lettuce](topping)
+- [white](bread)
+- [chedar](cheese)
 
 ## intent:provide_date
 - [today](date)
 - [tomorrow](date)
 - [next Monday](date)
 - [today](date)
+- [tomorrow](date)
 - [tomorrow](date)
 
 ## intent:provide_location
@@ -170,6 +174,7 @@
 - could you tell me the weather in [Suzhou](location) [today](date)?
 - how about the weather in [Redmond](location)
 - how's the weather [today](date)
+- how's the weather in [Beijing](location)
 
 ## intent:thanks
 - thanks
