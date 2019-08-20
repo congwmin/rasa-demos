@@ -78,7 +78,7 @@ templates:
   utter_goodbye:
   - text: Bye~
   utter_greet:
-  - text: Hey! Can I help you?
+  - text: Hey! What can I do for you?
   utter_order_sandwich:
   - text: OK. You order a {bread} sandwich with {meat}, {cheese} with {topping}.
   utter_show_weather:
