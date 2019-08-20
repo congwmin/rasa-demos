@@ -251,3 +251,31 @@
 * query_weather{"location": "Redmond"}
     - slot{"location": "Redmond"}
     - utter_show_weather
+
+## Generated Story -5079616943111260837
+* query_weather{"location": "Beijing", "date": "today"}
+    - slot{"date": "today"}
+    - slot{"location": "Beijing"}
+    - utter_show_weather
+* query_weather{"location": "Redmond"}
+    - slot{"location": "Redmond"}
+    - utter_show_weather
+* query_weather{"date": "tomorrow"}
+    - slot{"date": "tomorrow"}
+    - utter_show_weather
+
+## Generated Story -7164561364345125341
+* order_sandwich{"meat": "pork", "topping": "lettuce"}
+    - slot{"meat": "pork"}
+    - slot{"topping": "lettuce"}
+    - utter_ask_bread
+* query_weather{"location": "Beijing", "date": "today"}
+    - slot{"date": "today"}
+    - slot{"location": "Beijing"}
+    - utter_show_weather
+* order_sandwich{"bread": "white"}
+    - slot{"bread": "white"}
+    - utter_ask_cheese
+* order_sandwich{"cheese": "swiss"}
+    - slot{"cheese": "swiss"}
+    - utter_order_sandwich

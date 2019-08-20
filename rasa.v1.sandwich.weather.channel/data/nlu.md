@@ -109,6 +109,9 @@
 - [provolone](cheese) cheese
 - I'd like to have a [ham](meat) sandwich with [lettuce](topping), please
 - White bread, also [swiss](cheese) cheese
+- give me a sandwitch with [pork](meat) and [lettuce](topping)
+- sandwitch with [white](bread) bread, please
+- [swiss](cheese)
 
 ## intent:provide_date
 - [today](date)
@@ -116,6 +119,11 @@
 - [next Monday](date)
 - [today](date)
 - [tomorrow](date)
+
+## intent:provide_location
+- [Beijing](location)
+- [Suzhou](location)
+- [Redmond](location)
 
 ## intent:query_weather
 - How's the weather in [Beijing](location)?
@@ -140,15 +148,13 @@
 - weather in [Suzhou](location) [today](date)
 - how about [Beijing](location)
 - how about [Redmond](location)
+- tell me the weather in [Beijing](location) [today](date)
+- how about [Redmond](location)
+- how about [tomorrow](date)
+- tell me the weather in [Beijing](location) [today](date)
 
 ## intent:thanks
 - thanks
 - thank you
 - thanks a lot
 - thanks
-
-## intent:provide_location
-- [Beijing](location)
-- [Suzhou](location)
-- [Redmond](location)
-
