@@ -7,7 +7,7 @@ actions:
 - utter_ask_topping
 - utter_goodbye
 - utter_greet
-- utter_order_sandwitch
+- utter_order_sandwich
 - utter_thanks
 entities:
 - bread
@@ -16,7 +16,7 @@ entities:
 - topping
 intents:
 - greet
-- order_sandwitch
+- order_sandwich
 - thanks
 - goodbye
 slots:
@@ -50,7 +50,7 @@ slots:
     - no topping
 templates:
   utter_ask_bread:
-  - text: What kind of bread do you want in your sandwitch? We have white, wheat and
+  - text: What kind of bread do you want in your sandwich? We have white, wheat and
       rye.
   utter_ask_cheese:
   - text: Do you like some cheese? We have provolone, swiss, chedar cheese.
@@ -63,7 +63,7 @@ templates:
   - text: Bye~
   utter_greet:
   - text: Hey!
-  utter_order_sandwitch:
-  - text: OK. You order a {bread} sandwitch with {meat}, {cheese} with {topping}.
+  utter_order_sandwich:
+  - text: OK. You order a {bread} sandwich with {meat}, {cheese} with {topping}.
   utter_thanks:
   - text: You are welcome.

@@ -18,7 +18,7 @@
 - hi
 - hi
 
-## intent:order_sandwitch
+## intent:order_sandwich
 - get me a sandwich
 - I need a sandwich
 - I want a sandwich
@@ -65,48 +65,48 @@
 - [ham](meat) with [white](bread) bread
 - [turkey](meat) with [chedar](cheese) and [wheat](bread)
 - [ham](meat) on [rye](bread)
-- I want a sandwitch with [white](brea)} bread, [turkey](meat) and [no topping](topping)
+- I want a sandwich with [white](brea)} bread, [turkey](meat) and [no topping](topping)
 - [ham](meat) sandwich with [wheat](bread) and [swiss](cheese)
 - I want a [ham](meat) sandwich with [lettuce](topping)
-- I'd like to have a sandwitch with [ham](meat).
+- I'd like to have a sandwich with [ham](meat).
 - [white](bread), please
 - Ok, give me some [chedar](cheese) cheese
 - [tomato](topping)
-- order a sandwitch
+- order a sandwich
 - [turkey](meat)
 - [provolone](cheese)
 - [no topping](topping)
 - [rye](bread) bread
-- order a sandwitch with [pork](meat) and [tomato](topping)
+- order a sandwich with [pork](meat) and [tomato](topping)
 - [wheat](bread)
 - [wheat](bread)
 - [chedar](cheese)
-- I'd like to have a [pork](meat) sandwitch with [chedar](cheese) cheese and [lettuce](topping)
+- I'd like to have a [pork](meat) sandwich with [chedar](cheese) cheese and [lettuce](topping)
 - [white](bread) bread, thanks
-- a [white](bread) bread sandwitch with [pork](meat), [lettuce](topping) and [provolone](cheese) cheese, please
-- a sandwitch with [tomato](topping) and [ham](meat)
+- a [white](bread) bread sandwich with [pork](meat), [lettuce](topping) and [provolone](cheese) cheese, please
+- a sandwich with [tomato](topping) and [ham](meat)
 - [rye](bread)
 - [no cheese](cheese)
-- I'd like to have a [wheat](bread) sandwitch with [turkey](meat) and [chedar](cheese) cheese
+- I'd like to have a [wheat](bread) sandwich with [turkey](meat) and [chedar](cheese) cheese
 - [mushroom](topping)
-- I'd like to have a [pork](meat) sandwitch
+- I'd like to have a [pork](meat) sandwich
 - [white](bread)
 - [no cheese](cheese)
 - [no topping](topping)
-- a sandwitch with [lettuce](topping), [turkey](meat), [no cheese](cheese) and [no topping](topping).
+- a sandwich with [lettuce](topping), [turkey](meat), [no cheese](cheese) and [no topping](topping).
 - [white](bread) bread
-- I'd like to order a [turkey](meat) sandwitch with [lettuce](topping) and [chedar](cheese) cheese
+- I'd like to order a [turkey](meat) sandwich with [lettuce](topping) and [chedar](cheese) cheese
 - [rye](bread) bread, please
-- I'd like to have a [turkey](meat) sandwitch with [tomato](topping), please
+- I'd like to have a [turkey](meat) sandwich with [tomato](topping), please
 - [rye](bread) bread
 - [provolone](cheese)
-- I'd like to have a [ham](meat) sandwitch with [mushroom](topping) and [swiss](cheese) cheese
+- I'd like to have a [ham](meat) sandwich with [mushroom](topping) and [swiss](cheese) cheese
 - [white](bread)
-- give me a sandwitch withham ant [mushrrom](topping)
-- give me a sandwitch with [ham](meat) and [mushroom](topping)
+- give me a sandwich withham ant [mushrrom](topping)
+- give me a sandwich with [ham](meat) and [mushroom](topping)
 - [rye](bread), please
 - [provolone](cheese) cheese
-- I'd like to have a [ham](meat) sandwitch with [lettuce](topping), please
+- I'd like to have a [ham](meat) sandwich with [lettuce](topping), please
 - White bread, also [swiss](cheese) cheese
 
 ## intent:thanks
