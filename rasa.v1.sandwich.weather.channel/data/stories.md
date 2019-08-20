@@ -297,3 +297,30 @@
 * order_sandwich{"topping": "mushroom"}
     - slot{"topping": "mushroom"}
     - utter_order_sandwich
+
+## Generated Story -4062717604379946430
+* greet
+    - utter_greet
+* query_weather{"location": "Suzhou", "date": "today"}
+    - slot{"date": "today"}
+    - slot{"location": "Suzhou"}
+    - utter_show_weather
+* thanks
+    - utter_thanks
+* order_sandwich{"meat": "pork", "topping": "lettuce"}
+    - slot{"meat": "pork"}
+    - slot{"topping": "lettuce"}
+    - utter_ask_bread
+* order_sandwich{"bread": "rye"}
+    - slot{"bread": "rye"}
+    - utter_ask_cheese
+* query_weather{"location": "Redmond"}
+    - slot{"location": "Redmond"}
+    - utter_show_weather
+    - undo
+    - utter_ask_cheese
+* order_sandwich{"cheese": "chedar"}
+    - slot{"cheese": "chedar"}
+    - utter_order_sandwich
+* thanks
+    - utter_thanks
