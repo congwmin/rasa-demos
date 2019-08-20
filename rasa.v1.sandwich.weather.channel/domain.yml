@@ -21,9 +21,9 @@ entities:
 - topping
 intents:
 - query_weather
-- thanks
 - order_sandwich
 - provide_location
+- thanks
 - provide_date
 - greet
 - goodbye
