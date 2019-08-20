@@ -21,11 +21,11 @@ entities:
 - topping
 intents:
 - query_weather
+- thanks
 - order_sandwich
+- provide_location
 - provide_date
 - greet
-- provide_location
-- thanks
 - goodbye
 slots:
   bread:

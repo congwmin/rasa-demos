@@ -127,6 +127,9 @@
 - give me a sandwich with [turkey](meat) and [lettuce](topping)
 - [white](bread)
 - [chedar](cheese)
+- I'd like to have a [ham](meat) sandwich with [tomato](topping)
+- [wheat](bread)
+- [chedar](cheese)
 
 ## intent:provide_date
 - [today](date)
@@ -140,6 +143,7 @@
 - [Beijing](location)
 - [Suzhou](location)
 - [Redmond](location)
+- [Beijing](location)
 - [Beijing](location)
 - [Beijing](location)
 
@@ -175,11 +179,13 @@
 - how about the weather in [Redmond](location)
 - how's the weather [today](date)
 - how's the weather in [Beijing](location)
+- how's the weather [today](date)
 
 ## intent:thanks
 - thanks
 - thank you
 - thanks a lot
+- thx
 - thx
 - thx
 - thx
