@@ -133,7 +133,7 @@
 - [chedar](cheese)
 - give me a [pork](meat) sandwich with [swiss](cheese) cheese
 - [white](bread)
-- [mushrom](topping), please
+- [mushroom](topping), please
 - give me a sandwich with tomoto
 - [turkey](meat)
 - [chedar](cheese)

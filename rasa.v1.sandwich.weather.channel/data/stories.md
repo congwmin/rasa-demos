@@ -417,8 +417,8 @@
     - slot{"location": "Beijing"}
     - utter_show_weather
     - utter_ask_topping
-* order_sandwich{"topping": "mushrom"}
-    - slot{"topping": "mushrom"}
+* order_sandwich{"topping": "mushroom"}
+    - slot{"topping": "mushroom"}
     - utter_order_sandwich
 * thanks
     - utter_thanks
