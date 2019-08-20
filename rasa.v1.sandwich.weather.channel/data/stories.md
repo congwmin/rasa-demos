@@ -324,3 +324,27 @@
     - utter_order_sandwich
 * thanks
     - utter_thanks
+
+## Generated Story -8855980166357798584
+* greet
+    - utter_greet
+* query_weather{"date": "today"}
+    - slot{"date": "today"}
+    - utter_ask_location
+* provide_location{"location": "Beijing"}
+    - slot{"location": "Beijing"}
+    - utter_show_weather
+
+## Generated Story -6338904036405068789
+* order_sandwich{"topping": "tomato"}
+    - slot{"topping": "tomato"}
+    - utter_ask_bread
+* order_sandwich{"bread": "wheat"}
+    - slot{"bread": "wheat"}
+    - utter_ask_cheese
+* order_sandwich{"cheese": "no cheese"}
+    - slot{"cheese": "no cheese"}
+    - utter_ask_meat
+* order_sandwich{"meat": "no meat"}
+    - slot{"meat": "no meat"}
+    - utter_order_sandwich
