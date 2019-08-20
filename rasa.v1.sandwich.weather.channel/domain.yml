@@ -23,6 +23,7 @@ intents:
 - thanks
 - query_weather
 - provide_date
+- provide_location
 - greet
 - order_sandwich
 - goodbye

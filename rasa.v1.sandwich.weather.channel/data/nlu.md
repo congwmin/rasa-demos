@@ -146,6 +146,9 @@
 - thank you
 - thanks a lot
 - thanks
-- thanks
-- thanks
-- thanks
+
+## intent:provide_location
+- [Beijing](location)
+- [Suzhou](location)
+- [Redmond](location)
+
