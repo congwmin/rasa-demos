@@ -1,0 +1,68 @@
+%YAML 1.1
+---
+actions:
+- action_goodbye
+- action_greet
+- action_thanks
+- utter_ask_meat
+- utter_ask_bread
+- utter_ask_cheese
+- utter_ask_topping
+- utter_order_sandwitch
+entities:
+- meat
+- bread
+- cheese
+- topping
+intents:
+- greet
+- goodbye
+- thanks
+- order_sandwitch
+slots:
+  meat:
+    type: categorical
+    values:
+      - turkey
+      - ham
+      - pork
+      - no meat
+  bread:
+    type: categorical
+    values:
+      - white
+      - wheat
+      - rye
+      - no bread
+  cheese:
+    type: categorical
+    values:
+      - swiss
+      - provolone
+      - chedar
+      - no cheese
+  topping:
+    type: categorical
+    values:
+      - lettuce
+      - tomato
+      - mushroom
+      - no topping
+templates:
+  utter_greet:
+  - text: Hey!
+  utter_thanks:
+  - text: You are welcome.
+  utter_goodbye:
+  - text: Bye~
+  utter_ask_meat:
+  - text: What kind of meat do you prefer? We have turkey, ham, pork. Or you can choose no meat.
+  utter_ask_bread:
+  - text: What kind of bread do you want in your sandwitch? We have white, wheate and rye.
+  utter_ask_cheese:
+  - text: Do you like some cheese? We have provolone, swiss, chedar cheese.
+  utter_ask_topping:
+  - text: Do you want toppings? We have lettuce, tomato, mushroom available.
+  utter_order_sandwitch:
+  - text: OK. You order a {bread} sandwitch with {meat}, {cheese} with {topping}.
+
