@@ -22,10 +22,10 @@ entities:
 intents:
 - query_weather
 - order_sandwich
-- provide_location
-- thanks
-- provide_date
 - greet
+- thanks
+- provide_location
+- provide_date
 - goodbye
 slots:
   bread:

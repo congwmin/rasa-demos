@@ -20,6 +20,7 @@
 - hi
 - hey
 - hello
+- hello
 
 ## intent:order_sandwich
 - get me a sandwich
@@ -133,6 +134,14 @@
 - give me a [pork](meat) sandwich with [swiss](cheese) cheese
 - [white](bread)
 - [mushrom](topping), please
+- give me a sandwich with tomoto
+- [turkey](meat)
+- [chedar](cheese)
+- [mushroom](topping)
+- [white](bread)
+- I'd like to have a [turkey](meat) sandwich with [swiss](cheese) cheese
+- [rye](bread)
+- [lettuce](topping)
 
 ## intent:provide_date
 - [today](date)
@@ -188,6 +197,9 @@
 - how about [tomorrow](date)
 - how about [Redmond](location)
 - tell me the weather in [Beijing](location) [today](date)
+- tell me the weather in [Suzhou](location) [tomorrow](date)
+- how about [Beijing](location)
+- how about [Suzhou](location) [tomorrow](date)
 
 ## intent:thanks
 - thanks
@@ -199,3 +211,4 @@
 - thx
 - thank you
 - thanks
+- thank you
