@@ -23,6 +23,9 @@
 - create a meeting from [10am](meeting_startTime) to [11am](meeting_endTime) [tomorrow](meeting_date)
 - create a meeting from [9am](meeting_startTime) to [10am](meeting_endTime) [next Monday](meeting_date)
 - create a meeting from [2pm](meeting_startTime) to [3pm](meeting_endTime) [today](meeting_date)
+- create a meeting from [9am](meeting_startTime) to [11am](meeting_endTime) [tomorrow](meeting_date)
+- create meeting from [2pm](meeting_startTime) to [4pm](meeting_endTime) [next Monday](meeting_date)
+- create a meeting from [10am](meeting_startTime) to [11am](meeting_endTime) [today](meeting_date)
 
 ## intent:goodbye
 - bye
@@ -47,6 +50,7 @@
 - hey
 - hello
 - hello
+- hi
 - hi
 - hi
 - hi
@@ -255,6 +259,7 @@
 - how about [tomorrow](date)
 - how's the weather in [Beijing](location)
 - how about [today](date)
+- how's the weather in [Beijing](location) [tomorrow](date)
 
 ## intent:thanks
 - thanks
@@ -262,13 +267,20 @@
 - thanks a lot
 - thx
 - thanks
+- thanks
 
 ## intent:update_meeting
 - update the meeting's start time to [11am](meeting_startTime), please
 - update the meeting's end time to [11am](meeting_endTime)
 - update the meeting's start time to [9am](meeting_startTime)
 - update the meeting's start time to [2pm](meeting_startTime)
-- update the meeting's endtime to [2pm](meeting_endTime)
+- update the meeting's end time to [2pm](meeting_endTime)
 - update the meeting's date to [tomorrow](meeting_date)
 - update the meeting's date to [next Monday](meeting_date)
 - update the meeting's date to [today](meeting_date)
+- update the meeting's start time to [2pm](meeting_startTime)
+- update the meeting's start time to [2pm](meeting_startTime)
+- update the meeting's end time to [3pm](meeting_endTime)
+- update the meeting's date to [tomorrow](meeting_date)
+- update the meeting's start time to [3pm](meeting_startTime)
+- update the meeting's start time to [9am](meeting_startTime)

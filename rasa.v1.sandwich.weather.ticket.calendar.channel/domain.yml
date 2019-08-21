@@ -30,14 +30,14 @@ entities:
 - toCity
 - topping
 intents:
-- create_meeting
 - update_meeting
+- thanks
+- query_weather
+- create_meeting
 - greet
 - provide_date
 - book_ticket
 - provide_fromCity
-- query_weather
-- thanks
 - order_sandwich
 - provide_location
 - goodbye
