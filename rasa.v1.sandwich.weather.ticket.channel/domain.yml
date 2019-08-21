@@ -1,0 +1,105 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_bread
+- utter_ask_cheese
+- utter_ask_date
+- utter_ask_fromCity
+- utter_ask_location
+- utter_ask_meat
+- utter_ask_toCity
+- utter_ask_topping
+- utter_book_ticket
+- utter_goodbye
+- utter_greet
+- utter_order_sandwich
+- utter_show_weather
+- utter_thanks
+entities:
+- bread
+- cheese
+- date
+- fromCity
+- location
+- meat
+- toCity
+- topping
+intents:
+- book_ticket
+- greet
+- thanks
+- query_weather
+- provide_fromCity
+- provide_date
+- order_sandwich
+- provide_location
+- goodbye
+- provide_toCity
+slots:
+  bread:
+    type: categorical
+    values:
+    - white
+    - wheat
+    - rye
+    - no bread
+  cheese:
+    type: categorical
+    values:
+    - swiss
+    - provolone
+    - chedar
+    - no cheese
+  date:
+    type: text
+  fromCity:
+    type: text
+  location:
+    type: text
+  meat:
+    type: categorical
+    values:
+    - turkey
+    - ham
+    - pork
+    - no meat
+  toCity:
+    type: text
+  topping:
+    type: categorical
+    values:
+    - lettuce
+    - tomato
+    - mushroom
+    - no topping
+templates:
+  utter_ask_bread:
+  - text: What kind of bread do you want in your sandwich? We have white, wheat and
+      rye.
+  utter_ask_cheese:
+  - text: Do you like some cheese? We have provolone, swiss, chedar cheese.
+  utter_ask_date:
+  - text: Which day?
+  utter_ask_fromCity:
+  - text: What city are you leaving from?
+  utter_ask_location:
+  - text: Where?
+  utter_ask_meat:
+  - text: What kind of meat do you prefer? We have turkey, ham, pork. Or you can choose
+      no meat.
+  utter_ask_toCity:
+  - text: What city are you going to?
+  utter_ask_topping:
+  - text: Do you want toppings? We have lettuce, tomato, mushroom available.
+  utter_book_ticket:
+  - text: OK. I'll book a ticket from {fromCity} to {toCity} {date}.
+  utter_goodbye:
+  - text: Bye~
+  utter_greet:
+  - text: Hey! What can I do for you?
+  utter_order_sandwich:
+  - text: OK. You order a {bread} sandwich with {meat}, {cheese} with {topping}.
+  utter_show_weather:
+  - text: The weather in {location} {date} is sunny. :)
+  utter_thanks:
+  - text: You are welcome.
