@@ -10,12 +10,12 @@ actions:
 - utter_ask_toCity
 - utter_ask_topping
 - utter_book_ticket
+- utter_create_meeting
 - utter_goodbye
 - utter_greet
 - utter_order_sandwich
 - utter_show_weather
 - utter_thanks
-- utter_create_meeting
 - utter_update_meeting
 entities:
 - bread
@@ -24,12 +24,14 @@ entities:
 - fromCity
 - location
 - meat
+- meeting_date
+- meeting_endTime
+- meeting_startTime
 - toCity
 - topping
-- meeting_startTime
-- meeting_endTime
-- meeting_date
 intents:
+- update_meeting
+- create_meeting
 - greet
 - provide_date
 - book_ticket
@@ -40,8 +42,6 @@ intents:
 - provide_location
 - goodbye
 - provide_toCity
-- create_meeting
-- update_meeting
 slots:
   bread:
     type: categorical
@@ -70,6 +70,12 @@ slots:
     - ham
     - pork
     - no meat
+  meeting_date:
+    type: text
+  meeting_endTime:
+    type: text
+  meeting_startTime:
+    type: text
   toCity:
     type: text
   topping:
@@ -79,12 +85,6 @@ slots:
     - tomato
     - mushroom
     - no topping
-  meeting_startTime:
-    type: text
-  meeting_endTime:
-    type: text
-  meeting_date:
-    type: text
 templates:
   utter_ask_bread:
   - text: What kind of bread do you want in your sandwich? We have white, wheat and
@@ -106,6 +106,9 @@ templates:
   - text: Do you want toppings? We have lettuce, tomato, mushroom available.
   utter_book_ticket:
   - text: OK. I'll book a ticket from {fromCity} to {toCity} {date}.
+  utter_create_meeting:
+  - text: OK. I'll create a meeting from {meeting_startTime} to {meeting_endTime}
+      {meeting_date}.
   utter_goodbye:
   - text: Bye~
   utter_greet:
@@ -116,5 +119,3 @@ templates:
   - text: The weather in {location} {date} is sunny. :)
   utter_thanks:
   - text: You are welcome.
-  utter_create_meeting:
-  - text: OK. I'll create a meeting from {meeting_startTime} to {meeting_endTime} {meeting_date}.

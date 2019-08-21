@@ -14,6 +14,19 @@
 - could you help me book a ticket to [Suzhou](toCity) [next Monday](date)
 - book a ticket [tomorrow](date), please
 
+## intent:create_meeting
+- create a meeting from [10am](meeting_startTime) to [2pm](meeting_endTime) [today](meeting_date)
+- create a meeting from [9am](meeting_startTime) to [3pm](meeting_endTime) [tomorrow](meeting_date)
+- could you create a meeting from [11am](meeting_startTime) to [1pm](meeting_endTime) [next Monday](meeting_date)
+- update the meeting's start time to [10am](meeting_startTime)
+- update the meeting's end time to [1pm](meeting_endTime)
+- update the meeting's date to [tomorrow](meeting_date), please
+- create a meeting from [10am](meeting_startTime) to [2pm](meeting_endTime) [today](meeting_date)
+- update the meeting's start time to [11am](meeting_startTime), please
+- create a meeting from [9am](meeting_startTime) to [11am](meeting_startTime) [tomorrow](date)
+- create a meeting from [9am](meeting_startTime) to [11am](meeting_endTime) [tomorrow](date)
+- update the meeting's endTime to [11am](meeting_startTime)
+
 ## intent:goodbye
 - bye
 - goodbye
@@ -252,13 +265,6 @@
 - thx
 - thanks
 
-## intent:create_meeting
-- create a meeting from [10am](meeting_startTime) to [2pm](meeting_endTime) [today](meeting_date)
-- create a meeting from [9am](meeting_startTime) to [3pm](meeting_endTime) [tomorrow](meeting_date)
-- could you create a meeting from [11am](meeting_startTime) to [1pm](meeting_endTime) [next Monday](meeting_date)
-
-## intetn:update_meeting
-- update the meeting's start time to [10am](meeting_startTime)
-- update the meeting's end time to [1pm](meeting_endTime)
-- update the meeting's date to [tomorrow](meeting_date), please
-
+## intent:update_meeting
+- update the meeting's start time to [11am](meeting_startTime), please
+- update the meeting's endTime to [11am](meeting_endTime)

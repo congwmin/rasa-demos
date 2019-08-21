@@ -571,3 +571,33 @@
 * query_weather{"date": "today"}
     - slot{"date": "today"}
     - utter_show_weather
+
+## Generated Story 1327461292358317917
+* create_meeting{"meeting_startTime": "10am", "meeting_endTime": "2pm", "meeting_date": "today"}
+    - slot{"meeting_date": "today"}
+    - slot{"meeting_endTime": "2pm"}
+    - slot{"meeting_startTime": "10am"}
+    - utter_create_meeting
+* create_meeting{"meeting_startTime": "11am"}
+    - slot{"meeting_startTime": "11am"}
+    - rewind
+* update_meeting{"meeting_startTime": "11am"}
+    - slot{"meeting_startTime": "11am"}
+    - utter_update_meeting
+
+## Generated Story 7655965334497148518
+* create_meeting{"meeting_startTime": "11am", "date": "tomorrow"}
+    - slot{"date": "tomorrow"}
+    - slot{"meeting_startTime": "11am"}
+    - rewind
+* create_meeting{"meeting_startTime": "9am", "meeting_endTime": "11am", "date": "tomorrow"}
+    - slot{"date": "tomorrow"}
+    - slot{"meeting_endTime": "11am"}
+    - slot{"meeting_startTime": "9am"}
+    - utter_create_meeting
+* create_meeting{"meeting_startTime": "11am"}
+    - slot{"meeting_startTime": "11am"}
+    - rewind
+* update_meeting{"meeting_endTime": "11am"}
+    - slot{"meeting_endTime": "11am"}
+    - utter_update_meeting
