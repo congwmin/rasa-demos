@@ -18,14 +18,11 @@
 - create a meeting from [10am](meeting_startTime) to [2pm](meeting_endTime) [today](meeting_date)
 - create a meeting from [9am](meeting_startTime) to [3pm](meeting_endTime) [tomorrow](meeting_date)
 - could you create a meeting from [11am](meeting_startTime) to [1pm](meeting_endTime) [next Monday](meeting_date)
-- update the meeting's start time to [10am](meeting_startTime)
-- update the meeting's end time to [1pm](meeting_endTime)
-- update the meeting's date to [tomorrow](meeting_date), please
 - create a meeting from [10am](meeting_startTime) to [2pm](meeting_endTime) [today](meeting_date)
-- update the meeting's start time to [11am](meeting_startTime), please
-- create a meeting from [9am](meeting_startTime) to [11am](meeting_startTime) [tomorrow](date)
-- create a meeting from [9am](meeting_startTime) to [11am](meeting_endTime) [tomorrow](date)
-- update the meeting's endTime to [11am](meeting_startTime)
+- create a meeting from [10am](meeting_startTime) to [11am](meeting_endTime) [today](meeting_date)
+- create a meeting from [10am](meeting_startTime) to [11am](meeting_endTime) [tomorrow](meeting_date)
+- create a meeting from [9am](meeting_startTime) to [10am](meeting_endTime) [next Monday](meeting_date)
+- create a meeting from [2pm](meeting_startTime) to [3pm](meeting_endTime) [today](meeting_date)
 
 ## intent:goodbye
 - bye
@@ -50,6 +47,7 @@
 - hey
 - hello
 - hello
+- hi
 - hi
 - hi
 
@@ -78,14 +76,14 @@
 - [swiss](cheese)
 - [white](bread)
 - [ham](meat) [chedar](cheese) and some [tomato](topping)
-- I'd like a [pork](meat})sandwich on [rye](bread) bread
+- I'd like a [pork](meat) sandwich on [rye](bread) bread
 - [turkey](meat) thanks
 - [ham](meat) [swiss](cheese) on [wheat](bread)
 - [pork](meat) sandwich
 - [pork](meat) sandwich with [lettuce](topping)
 - I'd like a [turkey](meat) sandwich
 - [ham](meat) on [rye](bread) with [swiss](cheese)
-- [wheate](bread) thanks
+- [wheat](bread) thanks
 - can I get a [pork](meat) sandwich
 - I want a [ham](meat) sandwich
 - I want a [turkey](meat) sandwich with [mushroom](topping)
@@ -100,7 +98,7 @@
 - [ham](meat) with [white](bread) bread
 - [turkey](meat) with [chedar](cheese) and [wheat](bread)
 - [ham](meat) on [rye](bread)
-- I want a sandwich with [white](brea)} bread, [turkey](meat) and [no topping](topping)
+- I want a sandwich with [white](bread) bread, [turkey](meat) and [no topping](topping)
 - [ham](meat) sandwich with [wheat](bread) and [swiss](cheese)
 - I want a [ham](meat) sandwich with [lettuce](topping)
 - I'd like to have a sandwich with [ham](meat).
@@ -267,4 +265,10 @@
 
 ## intent:update_meeting
 - update the meeting's start time to [11am](meeting_startTime), please
-- update the meeting's endTime to [11am](meeting_endTime)
+- update the meeting's end time to [11am](meeting_endTime)
+- update the meeting's start time to [9am](meeting_startTime)
+- update the meeting's start time to [2pm](meeting_startTime)
+- update the meeting's endtime to [2pm](meeting_endTime)
+- update the meeting's date to [tomorrow](meeting_date)
+- update the meeting's date to [next Monday](meeting_date)
+- update the meeting's date to [today](meeting_date)

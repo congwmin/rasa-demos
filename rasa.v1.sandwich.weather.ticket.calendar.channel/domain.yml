@@ -30,8 +30,8 @@ entities:
 - toCity
 - topping
 intents:
-- update_meeting
 - create_meeting
+- update_meeting
 - greet
 - provide_date
 - book_ticket
@@ -119,3 +119,5 @@ templates:
   - text: The weather in {location} {date} is sunny. :)
   utter_thanks:
   - text: You are welcome.
+  utter_update_meeting:
+  - text: The meeting is update. From {meeting_startTime} to {meeting_endTime} {meeting_date}.

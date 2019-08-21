@@ -601,3 +601,45 @@
 * update_meeting{"meeting_endTime": "11am"}
     - slot{"meeting_endTime": "11am"}
     - utter_update_meeting
+
+## Generated Story -5160323662114778893
+* greet
+    - utter_greet
+* create_meeting{"meeting_startTime": "11am", "date": "today"}
+    - slot{"date": "today"}
+    - slot{"meeting_startTime": "11am"}
+    - rewind
+* create_meeting{"meeting_startTime": "10am", "meeting_endTime": "11am", "meeting_date": "today"}
+    - slot{"meeting_date": "today"}
+    - slot{"meeting_endTime": "11am"}
+    - slot{"meeting_startTime": "10am"}
+    - utter_create_meeting
+* create_meeting{"meeting_startTime": "9am"}
+    - slot{"meeting_startTime": "9am"}
+    - rewind
+* create_meeting{"meeting_startTime": "9am"}
+    - slot{"meeting_startTime": "9am"}
+    - rewind
+* create_meeting{"meeting_startTime": "9am"}
+    - slot{"meeting_startTime": "9am"}
+    - rewind
+* update_meeting{"meeting_startTime": "9am"}
+    - slot{"meeting_startTime": "9am"}
+    - utter_update_meeting
+
+## Generated Story 4590141025420985495
+* create_meeting{"meeting_startTime": "11am", "date": "tomorrow"}
+    - slot{"date": "tomorrow"}
+    - slot{"meeting_startTime": "11am"}
+    - rewind
+* create_meeting{"meeting_startTime": "10am", "meeting_endTime": "11am", "meeting_date": "tomorrow"}
+    - slot{"meeting_date": "tomorrow"}
+    - slot{"meeting_endTime": "11am"}
+    - slot{"meeting_startTime": "10am"}
+    - utter_create_meeting
+* create_meeting{"meeting_endTime": "2pm"}
+    - slot{"meeting_endTime": "2pm"}
+    - rewind
+* update_meeting{"meeting_endTime": "2pm"}
+    - slot{"meeting_endTime": "2pm"}
+    - utter_update_meeting
