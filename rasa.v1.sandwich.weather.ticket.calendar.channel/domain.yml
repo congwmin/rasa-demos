@@ -1,22 +1,16 @@
-%YAML 1.1
----
-actions:
-- utter_ask_bread
-- utter_ask_cheese
-- utter_ask_date
-- utter_ask_fromCity
-- utter_ask_location
-- utter_ask_meat
-- utter_ask_toCity
-- utter_ask_topping
-- utter_book_ticket
-- utter_create_meeting
-- utter_goodbye
-- utter_greet
-- utter_order_sandwich
-- utter_show_weather
-- utter_thanks
-- utter_update_meeting
+intents:
+- book_ticket
+- create_meeting
+- goodbye
+- greet
+- order_sandwich
+- provide_date
+- provide_fromCity
+- provide_location
+- provide_toCity
+- query_weather
+- thanks
+- update_meeting
 entities:
 - bread
 - cheese
@@ -29,19 +23,6 @@ entities:
 - meeting_startTime
 - toCity
 - topping
-intents:
-- update_meeting
-- thanks
-- query_weather
-- create_meeting
-- greet
-- provide_date
-- book_ticket
-- provide_fromCity
-- order_sandwich
-- provide_location
-- goodbye
-- provide_toCity
 slots:
   bread:
     type: categorical
@@ -121,3 +102,20 @@ templates:
   - text: You are welcome.
   utter_update_meeting:
   - text: The meeting is update. From {meeting_startTime} to {meeting_endTime} {meeting_date}.
+actions:
+- utter_ask_bread
+- utter_ask_cheese
+- utter_ask_date
+- utter_ask_fromCity
+- utter_ask_location
+- utter_ask_meat
+- utter_ask_toCity
+- utter_ask_topping
+- utter_book_ticket
+- utter_create_meeting
+- utter_goodbye
+- utter_greet
+- utter_order_sandwich
+- utter_show_weather
+- utter_thanks
+- utter_update_meeting
