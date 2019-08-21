@@ -1,0 +1,244 @@
+2019-08-16 08:33:44,953 [ERROR]  Exception occurred while handling uri: 'http://localhost:5005/webhook'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhook not found
+2019-08-19 06:23:24,724 [ERROR]  Exception occurred while handling uri: 'http://b05fedad.ngrok.io/'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-08-19 06:23:25,194 [ERROR]  Exception occurred while handling uri: 'http://b05fedad.ngrok.io/favicon.ico'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /favicon.ico not found
+2019-08-19 06:23:42,670 [ERROR]  Exception occurred while handling uri: 'http://b05fedad.ngrok.io/'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-08-19 06:44:30,625 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /api/messages not found
+2019-08-19 06:44:31,354 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /api/messages not found
+2019-08-19 06:45:18,565 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /api/messages not found
+2019-08-19 06:47:02,520 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /api/messages not found
+2019-08-19 06:47:03,251 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /api/messages not found
+2019-08-19 06:47:05,553 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /api/messages not found
+2019-08-19 06:47:06,277 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /api/messages not found
+2019-08-19 06:47:18,453 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /api/messages not found
+2019-08-19 06:47:57,440 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL / not found
+2019-08-19 06:56:25,604 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/webhooks/botframework/webhook/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/botframework/webhook/api/messages not found
+2019-08-19 06:56:26,327 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/webhooks/botframework/webhook/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/botframework/webhook/api/messages not found
+2019-08-19 06:56:32,304 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/webhooks/botframework/webhook/api/messages'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 469, in _get
+    raise NotFound("Requested URL {} not found".format(url))
+sanic.exceptions.NotFound: Requested URL /webhooks/botframework/webhook/api/messages not found
+2019-08-19 07:03:20,347 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/webhooks/botframework/webhook'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method HEAD not allowed for URL /webhooks/botframework/webhook
+2019-08-19 07:03:20,802 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/webhooks/botframework/webhook'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/botframework/webhook
+2019-08-19 07:04:07,338 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/webhooks/botframework/webhook'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/botframework/webhook
+2019-08-19 07:04:07,518 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/webhooks/botframework/webhook'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method HEAD not allowed for URL /webhooks/botframework/webhook
+2019-08-19 07:04:07,943 [ERROR]  Exception occurred while handling uri: 'http://81b558e0.ngrok.io/webhooks/botframework/webhook'
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 893, in handle_request
+    handler, args, kwargs, uri = self.router.get(request)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 407, in get
+    return self._get(request.path, request.method, "")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/router.py", line 446, in _get
+    raise method_not_supported
+sanic.exceptions.MethodNotSupported: Method GET not allowed for URL /webhooks/botframework/webhook
+2019-08-21 02:58:08,066 [ERROR]  Experienced exception while trying to serve
+Traceback (most recent call last):
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/app.py", line 1096, in run
+    serve(**server_settings)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/server.py", line 742, in serve
+    trigger_events(before_start, loop)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/sanic/server.py", line 604, in trigger_events
+    loop.run_until_complete(result)
+  File "uvloop/loop.pyx", line 1445, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1438, in uvloop.loop.Loop.run_until_complete
+  File "uvloop/loop.pyx", line 1347, in uvloop.loop.Loop.run_forever
+  File "uvloop/loop.pyx", line 487, in uvloop.loop.Loop._run
+  File "uvloop/loop.pyx", line 404, in uvloop.loop.Loop._on_idle
+  File "uvloop/cbhandles.pyx", line 66, in uvloop.loop.Handle._run
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/rasa/core/run.py", line 218, in load_agent_on_start
+    action_endpoint=endpoints.action,
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/rasa/core/agent.py", line 262, in load_agent
+    remote_storage=remote_storage,
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/rasa/core/agent.py", line 892, in load_local_model
+    remote_storage=remote_storage,
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/rasa/core/agent.py", line 378, in load
+    ensemble = PolicyEnsemble.load(core_model) if core_model else None
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/rasa/core/policies/ensemble.py", line 232, in load
+    policy = policy_cls.load(policy_path)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/rasa/core/policies/keras_policy.py", line 320, in load
+    model = load_model(model_file)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/tensorflow/python/keras/engine/saving.py", line 275, in load_model
+    model._make_train_function()
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py", line 1919, in _make_train_function
+    [self.total_loss] + metrics_tensors)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/tensorflow/python/keras/engine/training.py", line 1895, in _make_train_function_helper
+    params=self._collected_trainable_weights, loss=self.total_loss)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/tensorflow/python/keras/optimizers.py", line 259, in get_updates
+    grads = self.get_gradients(loss, params)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/tensorflow/python/keras/optimizers.py", line 93, in get_gradients
+    grads = K.gradients(loss, params)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/tensorflow/python/keras/backend.py", line 3216, in gradients
+    loss, variables, colocate_gradients_with_ops=True)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py", line 664, in gradients
+    unconnected_gradients)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/tensorflow/python/ops/gradients_impl.py", line 907, in _GradientsHelper
+    grad_fn = ops.get_gradient_function(op)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2543, in get_gradient_function
+    op_type = op.get_attr("_gradient_op_type")
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/tensorflow/python/framework/ops.py", line 2408, in get_attr
+    with c_api_util.tf_buffer() as buf:
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/contextlib.py", line 159, in helper
+    return _GeneratorContextManager(func, args, kwds)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/contextlib.py", line 60, in __init__
+    self.gen = func(*args, **kwds)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/socketio/client.py", line 25, in signal_handler
+    return original_signal_handler(sig, frame)
+  File "/home/hackathon/.conda/envs/rasa2/lib/python3.6/site-packages/engineio/client.py", line 41, in signal_handler
+    return original_signal_handler(sig, frame)
+KeyboardInterrupt
