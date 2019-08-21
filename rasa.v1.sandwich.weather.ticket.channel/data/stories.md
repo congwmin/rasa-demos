@@ -548,3 +548,26 @@
     - utter_book_ticket
 * thanks
     - utter_thanks
+
+## Generated Story -4049201823280730381
+* greet
+    - utter_greet
+* book_ticket{"toCity": "Suzhou", "date": "next Monday"}
+    - slot{"date": "next Monday"}
+    - slot{"toCity": "Suzhou"}
+    - utter_ask_fromCity
+* provide_fromCity{"fromCity": "Beijing"}
+    - slot{"fromCity": "Beijing"}
+    - utter_book_ticket
+* book_ticket{"date": "tomorrow"}
+    - slot{"date": "tomorrow"}
+    - utter_book_ticket
+* query_weather{"location": "Beijing"}
+    - slot{"location": "Beijing"}
+    - utter_ask_date
+* provide_date{"date": "tomorrow"}
+    - slot{"date": "tomorrow"}
+    - utter_show_weather
+* query_weather{"date": "today"}
+    - slot{"date": "today"}
+    - utter_show_weather

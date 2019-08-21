@@ -25,12 +25,12 @@ entities:
 - toCity
 - topping
 intents:
-- book_ticket
 - greet
-- thanks
-- query_weather
-- provide_fromCity
 - provide_date
+- book_ticket
+- provide_fromCity
+- query_weather
+- thanks
 - order_sandwich
 - provide_location
 - goodbye

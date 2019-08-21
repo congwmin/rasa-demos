@@ -11,6 +11,8 @@
 - could you book a ticket from [Beijing](fromCity) to [Redmond](toCity) [next Monday](date)
 - could you book a ticket to [Suzhou](toCity)
 - book a ticket [tomorrow](date)
+- could you help me book a ticket to [Suzhou](toCity) [next Monday](date)
+- book a ticket [tomorrow](date), please
 
 ## intent:goodbye
 - bye
@@ -35,6 +37,7 @@
 - hey
 - hello
 - hello
+- hi
 - hi
 
 ## intent:order_sandwich
@@ -171,11 +174,13 @@
 - [tomorrow](date)
 - [tomorrow](date)
 - [tomorrow](date)
+- [tomorrow](date)
 
 ## intent:provide_fromCity
 - from [Beijing](fromCity)
 - from [Suzhou](fromCity)
 - from [Redmond](fromCity)
+- from [Beijing](fromCity)
 - from [Beijing](fromCity)
 - from [Beijing](fromCity)
 
@@ -237,6 +242,8 @@
 - how about [next Monday](date)
 - how's the weather in [Suzhou](location) [today](date)
 - how about [tomorrow](date)
+- how's the weather in [Beijing](location)
+- how about [today](date)
 
 ## intent:thanks
 - thanks
