@@ -246,7 +246,6 @@
 - how's the weather [today](date)
 - how's the weather in [Beijing](location)
 - how's the weather [today](date)
-- how's the weather [today](date)
 - how about [tomorrow](date)
 - how about [Redmond](location)
 - tell me the weather in [Beijing](location) [today](date)
