@@ -698,3 +698,21 @@
     - slot{"date": "tomorrow"}
     - slot{"location": "Beijing"}
     - utter_show_weather
+
+## Generated Story -8078256761964624756
+* query_weather{"location": "Suzhou"}
+    - slot{"location": "Suzhou"}
+    - utter_ask_date
+* provide_date{"date": "tomorrow"}
+    - slot{"date": "tomorrow"}
+    - utter_show_weather
+
+## Generated Story -52393644341550232
+* greet
+    - utter_greet
+* order_sandwich{"meat": "turkey"}
+    - slot{"meat": "turkey"}
+    - utter_ask_bread
+* order_sandwich{"bread": "white"}
+    - slot{"bread": "white"}
+    - utter_ask_cheese
